@@ -26,7 +26,7 @@
 nav{
     display: flex;
     justify-content: space-between;
-    padding: 10px 35px;
+    padding: 10px 0;
 }
 .nav-src{
         position: relative;
@@ -68,7 +68,7 @@ nav img{
     max-height: 41px;
 }
 header{
-    background-color: rgba(0, 0, 0, 0.741);
+    background-color:white;
 }
 .banner{
     background-color:rgb(254, 234, 233);
@@ -78,7 +78,7 @@ header{
     align-items: center;
     padding: 28px;
     border-radius: 10px;
-    margin: 25px  35px;
+    margin: 25px 0;
 }
 .banner h2{
     font-size: 56px;
@@ -94,4 +94,113 @@ header{
    
      width: 402px;
      height: 378px;
+}
+.banner-end{
+     padding: 10px 0;
+}
+.banner-end h2{
+    font-size: 34px;
+    font-weight: 600;
+}
+.banner-container{
+   display: flex;
+   justify-content: space-between;
+    margin: 10px 0;
+    gap: 15px;
+}
+.banner-card{
+    display: flex;
+    justify-content: space-between;
+    width: 33%;
+    padding: 15px 46px;
+    border-radius:8px;
+    align-items: center;
+   
+}
+.banner-card h2{
+    Font-weight:500;
+    Font-size:36px;
+}
+.banner-card:nth-child(1){
+    background: linear-gradient(151.85deg, rgb(255, 156, 53) 14.537%,rgb(255, 208, 25) 84.486%);
+}
+.banner-card:nth-child(2)
+{/* Linear */
+background: linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%,rgb(255, 19, 111) 99.994%);}
+.banner-card:nth-child(3){
+    background: linear-gradient(170.38deg, rgb(66, 137, 255) 15.416%,rgb(63, 7, 248) 74.29%);
+}
+.shoes-bags-section{
+   background: rgb(244, 244, 244);
+}
+.shoes-section{
+    padding: 50px 10px;
+}
+.shoes-head{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.shoes-head h2{
+    font-size: 36px;
+    font-weight: 600;
+}
+.shoes-head a{
+    text-decoration: none;
+    color:rgb(255, 157, 0); 
+    font-weight: 500;
+}
+.shoes-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.shoes{
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  padding: 25px;
+  box-shadow: 2px 0px 8px 0px rgb(0 0 0 / 15%);
+  width: 33%;
+}
+.shoes img {
+  width: 336px;
+  height: 202px;
+}
+.shoes .btn{
+background: rgb(0, 0, 0);
+}
+.shoes span{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.shoes p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(78, 78, 78);
+    margin: 8px 0;
+}
+.contact{
+    margin: 35px auto;
+    background-color: rgb(255, 242, 241);
+    text-align: center;
+    padding:100px 200px ;
+    border-radius: 10px;
+}
+.contact-parent {
+  display: flex;
+  justify-content: center;
+}
+.contact-parent input {
+  border: none;
+  padding: 10px 10px 10px 152px;
+  height:40px;
+  margin-top:9px;
+   border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.contact-parent .btn {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
 }
